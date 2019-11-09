@@ -1,9 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+import HomePage from './pages/HomePage';
+import './App.css';
 function App() {
-	return <div>Hello world</div>;
+	return (
+		<div>
+			<HomePage />
+		</div>
+	);
 }
 
 export default App;
